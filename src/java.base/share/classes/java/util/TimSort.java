@@ -209,6 +209,8 @@ class TimSort<T> {
      */
     static <T> void sort(T[] a, int lo, int hi, Comparator<? super T> c,
                          T[] work, int workBase, int workLen) {
+        System.out.println("To be replaced with Powersort :)");
+
         assert c != null && a != null && lo >= 0 && lo <= hi && hi <= a.length;
 
         int nRemaining  = hi - lo;
