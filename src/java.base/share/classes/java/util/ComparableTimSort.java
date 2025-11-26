@@ -177,7 +177,7 @@ class ComparableTimSort {
      * @since 1.8
      */
     static void sort(Object[] a, int lo, int hi, Object[] work, int workBase, int workLen) {
-        System.out.println("To be replaced with Powersort :)");
+        System.err.println("To be replaced with Powersort :)");
 
         assert a != null && lo >= 0 && lo <= hi && hi <= a.length;
 
